@@ -25,6 +25,8 @@ module.exports = {
   ],
   rules: {
     "react-hooks/rules-of-hooks": "error",
+    "react/require-default-props": "off",
+    "react/jsx-filename-extension": "off",
     "react-hooks/exhaustive-deps": "warn",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
